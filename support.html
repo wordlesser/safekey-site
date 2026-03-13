@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — SafeKey</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #1c1c1e;
+      line-height: 1.7;
+    }
+    header {
+      background: #5856d6;
+      padding: 40px 24px 32px;
+      text-align: center;
+      color: #fff;
+    }
+    header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; font-size: 15px; opacity: 0.85; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #5856d6;
+      margin: 36px 0 10px;
+    }
+    p, li { font-size: 15px; color: #3a3a3c; }
+    ul { padding-left: 20px; margin-top: 8px; }
+    li { margin-bottom: 8px; }
+    .card {
+      background: #f5f5f7;
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-top: 24px;
+    }
+    .card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #1c1c1e; }
+    .card p  { font-size: 14px; color: #636366; }
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      background: #5856d6;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aeaeb2;
+      border-top: 1px solid #e5e5ea;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SafeKey</h1>
+  <p>Password Manager — Support</p>
+</header>
+
+<main>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="card">
+    <h3>I forgot my master password. Can I recover it?</h3>
+    <p>
+      No. SafeKey is designed so that your master password is never stored anywhere — not even by us.
+      If you forget it, the encrypted data cannot be recovered. We recommend writing it down and
+      storing it somewhere safe offline.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Where is my data stored?</h3>
+    <p>
+      Everything is stored locally on your device using AES-256-GCM encryption. Nothing is sent to
+      any server or cloud service.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>How do I back up my passwords?</h3>
+    <p>
+      Go to Settings &gt; Data Management &gt; Export. SafeKey will generate an encrypted backup file
+      that you can store anywhere you like (Files app, iCloud Drive, etc.).
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Face ID / Touch ID is not working.</h3>
+    <p>
+      Make sure you have enabled biometrics in iOS Settings and that you have turned on the
+      Face ID toggle inside SafeKey's Settings. On first enable, you will be asked to verify
+      with Face ID once to confirm.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>The app locked me out after too many wrong attempts.</h3>
+    <p>
+      After 5 consecutive wrong password attempts, SafeKey temporarily locks for 30 minutes as
+      a security measure. Please wait for the timer to expire and try again.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>How do I change my master password?</h3>
+    <p>
+      Go to Settings &gt; Security &gt; Change Master Password. You will need to enter your current
+      password first. All stored passwords will be re-encrypted automatically.
+    </p>
+  </div>
+
+  <h2>Still need help?</h2>
+  <p>
+    If your question is not answered above, please open an issue on GitHub and we will get back
+    to you as soon as possible.
+  </p>
+  <a class="btn" href="https://github.com/YOUR_USERNAME/safekey-site/issues">Open a Support Request</a>
+
+</main>
+
+<footer>
+  &copy; 2025 SafeKey. All rights reserved.
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="privacy.html" style="color:#5856d6; text-decoration:none;">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
